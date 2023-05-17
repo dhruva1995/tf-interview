@@ -21,3 +21,4 @@ generates output of
 { 'user': 'Dhruva', 'dob': '4' }
 { 'user': 'Chandra', 'dob': '4' }
 ```
+This project exposes an iterator [TemplateIterator.java](https://github.com/dhruva1995/tf-interview/blob/main/demo/src/main/java/com/example/demo/TemplateIterator.java) to generate these templates as strings
