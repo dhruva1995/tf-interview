@@ -3,9 +3,10 @@ This project aims to evaluate a template agains all possible combinations for a 
 For example:
 Template -> `{'user': '$user', 'dob': '$dob'}`
 Input -> 
-```{
-user: ["Dhruva", "Chandra"],
-dob: ["1", "2", "3"]
+```
+{
+  user: ["Dhruva", "Chandra"],
+  dob: ["1", "2", "3"]
 }
 ```
 
