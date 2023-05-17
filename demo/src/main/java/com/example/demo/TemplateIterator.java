@@ -22,7 +22,7 @@ public class TemplateIterator implements Iterator<String> {
      * Hols the input template variables
      */
     private final List<String> templateVars;
-    private boolean inital = true;
+    private boolean inital = false;
 
     public TemplateIterator(String template, Map<String, List<Object>> inputs) {
         this.template = template;
