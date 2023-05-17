@@ -9,9 +9,12 @@ import org.apache.velocity.app.Velocity;
 
 public class TemplateIterator implements Iterator<String> {
     private final String template;
+    /**
+     * Hold mapping between <template variable -> List of possible values for each template variable>
+     */
     private final Map<String, List<Object>> input;
     /**
-     * Holds the index for the values in the input
+     * Holds the index of value for each template variable to be used to template generation
      */
     private final List<Integer> state;
     /**
@@ -22,6 +25,10 @@ public class TemplateIterator implements Iterator<String> {
      * Hols the input template variables
      */
     private final List<String> templateVars;
+
+    /**
+     * Since the state starts all zeros for generating the first pair using a flag.
+     */
     private boolean inital = false;
 
     public TemplateIterator(String template, Map<String, List<Object>> inputs) {
