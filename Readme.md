@@ -6,7 +6,7 @@ Input ->
 ```
 {
   user: ["Dhruva", "Chandra"],
-  dob: ["1", "2", "3"]
+  dob: [1, 2, 3, 4]
 }
 ```
 
